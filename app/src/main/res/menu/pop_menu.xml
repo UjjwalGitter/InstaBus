@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Mahesh Nagar"/>
+    <item android:title="Shastr Nagar"/>
+    <item android:title="Sadar"/>
+    <item android:title="Checkpoit"/>
+    <item android:title="Sanganer"/>
+    <item android:title="Kolkata"/>
+
+</menu>

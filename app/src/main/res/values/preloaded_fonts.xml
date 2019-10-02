@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/adamina</item>
+        <item>@font/alef_bold</item>
+        <item>@font/alegreya</item>
+        <item>@font/alike_angular</item>
+        <item>@font/allerta</item>
+        <item>@font/allerta_stencil</item>
+        <item>@font/almendra</item>
+        <item>@font/anaheim</item>
+        <item>@font/bentham</item>
+        <item>@font/buenard_bold</item>
+        <item>@font/gfs_didot</item>
+        <item>@font/monoton</item>
+        <item>@font/sanchez</item>
+        <item>@font/stint_ultra_expanded</item>
+    </array>
+</resources>
