@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:orientation="vertical"
+    android:background="@drawable/start">
+    <LinearLayout
+        android:id="@+id/l1"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="270dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:src="@drawable/rfk">
+
+
+        </ImageView>
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:fontFamily="@font/megrim"-->
+            <!--android:text="InstaBus"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="#BF23A3D5"-->
+            <!--android:textSize="60sp" />-->
+
+        <TextView
+            android:layout_width="398dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-70dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="IIITJ Bus Tickets at one Place"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="10sp" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/buttonsub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/wer"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttonstyle"
+            android:fontFamily="@font/gfs_didot"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="-10dp"
+            android:text="Get Started"
+            android:textColor="#BF23A3D5"
+            android:textSize="17dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:id="@+id/wer"
+            android:alpha="0.7"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="-40dp"
+            android:background="@drawable/busu"
+            android:layout_height="270dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+

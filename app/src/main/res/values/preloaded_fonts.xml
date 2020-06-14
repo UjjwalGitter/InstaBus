@@ -1,20 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
+        <item>@font/abeezee</item>
+        <item>@font/abhaya_libre</item>
         <item>@font/aclonica</item>
+        <item>@font/actor</item>
         <item>@font/adamina</item>
         <item>@font/alef_bold</item>
         <item>@font/alegreya</item>
+        <item>@font/alegreya_sans_sc_thin</item>
+        <item>@font/alex_brush</item>
         <item>@font/alike_angular</item>
         <item>@font/allerta</item>
         <item>@font/allerta_stencil</item>
         <item>@font/almendra</item>
         <item>@font/anaheim</item>
+        <item>@font/assistant_light</item>
         <item>@font/bentham</item>
         <item>@font/buenard_bold</item>
+        <item>@font/bungee</item>
+        <item>@font/bungee_outline</item>
+        <item>@font/bungee_shade</item>
+        <item>@font/codystar</item>
+        <item>@font/crafty_girls</item>
+        <item>@font/eagle_lake</item>
+        <item>@font/euphoria_script</item>
+        <item>@font/fascinate_inline</item>
         <item>@font/gfs_didot</item>
+        <item>@font/megrim</item>
         <item>@font/monoton</item>
+        <item>@font/poiret_one</item>
         <item>@font/sanchez</item>
         <item>@font/stint_ultra_expanded</item>
+        <item>@font/syncopate</item>
+        <item>@font/underdog</item>
+        <item>@font/yeseva_one</item>
     </array>
 </resources>

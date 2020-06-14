@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".BuyTicketActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ll2"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:cardBackgroundColor="#19FFFFFF"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:id="@+id/ks"
+                android:gravity="center"
+                android:fontFamily="@font/abhaya_libre"
+                android:textColor="#000"
+                android:background="#FFF"
+                android:layout_centerHorizontal="true"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/bus"
+                android:layout_below="@+id/ks"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_directions_bus_black_24dp"
+                android:clickable="false"
+                android:editable="false"
+                android:focusable="false"
+                android:inputType="none" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/bus"
+                android:layout_alignBaseline="@+id/bus"
+                android:backgroundTint="#25292C"
+                android:fontFamily="@font/adamina"
+                android:padding="5dp"
+                android:layout_below="@+id/ks"
+
+                android:text="3:30 pm"
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/toti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/total"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="5dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:gravity="bottom"
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bus"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="#3E79A5"
+                android:fontFamily="@font/actor"
+                android:gravity="center"
+                android:text="Non AC Seater"
+                android:textColor="#A8A89F"
+                android:textSize="10dp" />
+            <TextView
+                android:id="@+id/note"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/total"
+                android:layout_gravity="left"
+                android:layout_marginHorizontal="5dp"
+                android:backgroundTint="#25292C"
+                android:fontFamily="@font/allerta"
+                android:text="Note:"
+                android:textColor="#FE3D54"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/available"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/total"
+                android:layout_toRightOf="@+id/note"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="5dp"
+                android:backgroundTint="#25292C"
+                android:fontFamily="@font/actor"
+                android:text="You can get off Anywhere in between to and from locations. "
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/avti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/available"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="5dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:gravity="bottom"
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/ks"
+                android:layout_alignBottom="@+id/email"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="-5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="-1dp"
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:layout_width="13.5dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4.5dp"
+                    android:src="@drawable/rs" />
+
+                <TextView
+                    android:id="@+id/fare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/adamina"
+                    android:gravity="bottom"
+                    android:text="10"
+                    android:textColor="#00B0FF"
+                    android:textSize="21dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_above="@+id/button"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#99900C3F"
+                        android:gravity="center"
+                        android:text="From"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#CC1F2A4C"
+                        android:gravity="center"
+                        android:text="Duration"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+
+                        android:layout_weight="1"
+                        android:background="#99900C3F"
+                        android:gravity="center"
+                        android:text="To"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#E1FFFFFF"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="College"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="40min"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Sadar"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/stle"
+                android:fontFamily="@font/alegreya_sans_sc_thin"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:text="Pay Rs. 10"
+                android:textColor="@android:color/white"
+                android:textSize="22dp" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
