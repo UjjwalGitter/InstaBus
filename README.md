@@ -9,6 +9,7 @@ Sep 2019
 Project description
 This App will help people to book Bus Tickets Online using any UPI Payments.
 - Integrated UPI Payments which will use UPI Apps(Specifically Google Pay(TEZ)) for Payments to buy Bus Ticket Online.
+- Added secured Authentication and proper validation checks which only allow college's email id to login into the App.
 - Firebase(Blaze Plan) is used as the BackEnd of App.
 - Cloud functions(written in JavaScript) are used to trigger and manipulate the data entries of Realtime Database on daily basis.
 App's Functionality-
@@ -18,10 +19,14 @@ Only accounts registered under Institute's domain can access this App.
 - Languages used:- JAVA, XML
 
 Features:-
-- User Login, Signup
-- User Forgot Password
-- Bus ticket booking using Google Pay 
-- Fixed Locations
+- User Signup, can use only college's email id.
+- User Login, users can use only email ids. provided by IIIT Jabalpur
+- Ticket booking in dedicated slots of duration.
+- A user can book only a single ticket of a given time per day. User is allowed to book atmost Three tickets.
+- User Forgot Password, Firebase forgot password using verified link to reset the password.
+- Bus Ticket order confirmation
+- Payment using Google Pay and and you can also change a little lines of code to use any UPIs mode of payments. 
+- Fixed Locations from institute to main market of the city.
 
 Demo Screenshots:
 ![PicsArt_06-14-06 08 21](https://user-images.githubusercontent.com/43453065/84593524-5855b600-ae6a-11ea-98a5-b4a1b96de16a.jpg)
