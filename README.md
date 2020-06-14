@@ -24,12 +24,6 @@ Features:-
 - Fixed Locations
 
 Demo Screenshots:
-![Screenshot_20200614-131045](https://user-images.githubusercontent.com/43453065/84592888-76b9b280-ae66-11ea-9918-4cd785b555d2.png)
-![Screenshot_20200614-131052](https://user-images.githubusercontent.com/43453065/84592891-78837600-ae66-11ea-8017-f1db396a0ac6.png)
-![Screenshot_20200202-133635](https://user-images.githubusercontent.com/43453065/84592893-791c0c80-ae66-11ea-8f9c-21bc13771104.png)
-![Screenshot_20200614-131056 (1)](https://user-images.githubusercontent.com/43453065/84592894-79b4a300-ae66-11ea-8a8e-72c0044ad4cb.png)
-![Screenshot_20200614-131102](https://user-images.githubusercontent.com/43453065/84592895-7a4d3980-ae66-11ea-9072-e87a574e3c32.png)
-![Screenshot_20200614-131058](https://user-images.githubusercontent.com/43453065/84592896-7a4d3980-ae66-11ea-9750-376e705509a8.png)
-![Screenshot_20200614-131141](https://user-images.githubusercontent.com/43453065/84592897-7ae5d000-ae66-11ea-825d-c61ac1e21603.png)
+
 
 
