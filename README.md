@@ -24,6 +24,7 @@ Features:-
 - Fixed Locations
 
 Demo Screenshots:
+![PicsArt_06-14-06 08 21](https://user-images.githubusercontent.com/43453065/84593524-5855b600-ae6a-11ea-98a5-b4a1b96de16a.jpg)
 
 
 
