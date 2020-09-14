@@ -27,6 +27,7 @@ Features:-
 - Bus Ticket order confirmation
 - Payment using Google Pay and and you can also change a little lines of code to use any UPIs mode of payments. 
 - Fixed Locations from institute to main market of the city.
+
 ![imgonline-com-ua-collage-avoGUmf5quhP](https://user-images.githubusercontent.com/43453065/93053251-2c261d00-f685-11ea-946d-847767be546c.jpg)
 
 
