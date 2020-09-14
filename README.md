@@ -18,6 +18,8 @@ Only accounts registered under Institute's domain can access this App.
 - Backend Server - Firebase(Spark Plan), Realtime Database
 - Languages used:- JAVA, XML
 
+<img src="https://user-images.githubusercontent.com/43453065/93053251-2c261d00-f685-11ea-946d-847767be546c.jpg" alt="alt text" width="110%" height="110%">
+
 Features:-
 - User Signup, can use only college's email id.
 - User Login, users can use only email ids. provided by IIIT Jabalpur
@@ -27,7 +29,6 @@ Features:-
 - Bus Ticket order confirmation
 - Payment using Google Pay and and you can also change a little lines of code to use any UPIs mode of payments. 
 - Fixed Locations from institute to main market of the city.
-<img src="https://user-images.githubusercontent.com/43453065/93053251-2c261d00-f685-11ea-946d-847767be546c.jpg" alt="alt text" width="110%" height="110%">
 
 
 
