@@ -6,6 +6,8 @@ As per the requirement of the Client I have integrated Google Pay(Tez) Payment G
 InstaBus
 Sep 2019
 
+Link to App: https://drive.google.com/file/d/1M1-xR9PijJ0DJo1l7L72xJPAQkMwcqHu/view?usp=sharing
+
 Project description
 This App will help people to book Bus Tickets Online using any UPI Payments.
 - Integrated UPI Payments which will use UPI Apps(Specifically Google Pay(TEZ)) for Payments to buy Bus Ticket Online.
