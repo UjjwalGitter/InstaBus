@@ -20,7 +20,7 @@ Only accounts registered under Institute's domain can access this App.
 - Backend Server - Firebase(Spark Plan), Realtime Database
 - Languages used:- JAVA, XML
 
-<img src="https://user-images.githubusercontent.com/43453065/93053251-2c261d00-f685-11ea-946d-847767be546c.jpg" alt="alt text" width="110%" height="110%">
+<img src="https://user-images.githubusercontent.com/43453065/93053251-2c261d00-f685-11ea-946d-847767be546c.jpg" alt="alt text" width="130%" height="130%">
 
 Features:-
 - User Signup, can use only college's email id.
